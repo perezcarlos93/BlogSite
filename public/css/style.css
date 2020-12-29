@@ -1,5 +1,12 @@
-header, .project:not(:last-child) {
+header,
+.project:not(:last-child) {
   border-bottom: 1px solid #ccc;
+}
+#header {
+  background-color: black;
+}
+#headTitle {
+  color: white;
 }
 
 .no-button {
@@ -17,8 +24,14 @@ header, .project:not(:last-child) {
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+a {
+  color: black;
+  text-decoration: none;
+}
+#login {
+  color: black;
+  padding: 0.5rem 2rem;
+  font-size: large;
+  background-color: grey;
+  border-radius: 25px;
 }
